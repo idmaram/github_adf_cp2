@@ -1,0 +1,26 @@
+{
+	"name": "RunPipline2-Everyday",
+	"properties": {
+		"description": "Copy posts file everyday at 2 AM",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copyPostsEveryday",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2024-05-09T07:01:00",
+				"endTime": "2024-05-10T12:38:00",
+				"timeZone": "Arab Standard Time"
+			}
+		}
+	}
+}

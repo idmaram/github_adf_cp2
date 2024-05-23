@@ -1,0 +1,9 @@
+{
+	"name": "adf-bd-2024",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "239058e7-9a5d-4ac1-9e97-0ea2fb35bbe5",
+		"tenantId": "97519106-2299-4fb5-864e-41ce3e14e3a0"
+	}
+}
